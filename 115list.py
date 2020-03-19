@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 #£¡/usr/bin/env pythonimport sys
-import sqlite3
 import warnings
 warnings.filterwarnings("ignore")
 import requests
