@@ -7,9 +7,10 @@ import requests
 import jsonpath
 import json 
 import pandas as pd
-import re
 import os
+import string  
 from sqlalchemy import create_engine
+
 
 def pclist(UID,CID,SEID,offset='0'):
     url = "https://webapi.115.com/files?aid=1&cid=0&o=user_ptime&asc=0&show_dir=1&limit=11150&code=&scid=&snap=0&natsort=1&record_open_time=1&source=&format=json&type=4&star=&suffix="
